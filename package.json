@@ -1,0 +1,11 @@
+{
+  "name": "aleksandar-kamenev-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Aleksandar Kamenev's personal portfolio — systems and imagination.",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "python -m http.server 8765 --bind 127.0.0.1 --directory dist"
+  },
+  "engines": { "node": ">=22" }
+}
