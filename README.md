@@ -21,8 +21,10 @@ Open http://127.0.0.1:8765. The source HTML can also be served directly by any s
 
 - Buildless HTML, CSS, and JavaScript with no runtime framework or third-party scripts.
 - Responsive layouts, visible keyboard focus, semantic headings, and project filtering.
-- Generative canvas network with a static SVG fallback.
+- Warm paper, deep slate and copper, with an interactive canvas network and a static SVG fallback.
+- Move the mouse to turn the network and highlight nearby nodes; drag to rotate. Touch screens support horizontal swipes while preserving vertical page scrolling. Focus the sketch and use Arrow keys to rotate or Home to reset; New pattern changes its connections.
 - Animation follows the operating system's reduced-motion preference. The footer has an explicit Pause animations / Resume animations control.
+- Pausing stops automatic motion and hover effects. Deliberate drag, keyboard and New pattern actions update a still image. The animation loop also stops when the sketch is offscreen or the document is hidden.
 - Content and links work without JavaScript. Filters and interactive controls appear only when JavaScript initializes.
 - Google Fonts supplies DM Sans, IBM Plex Mono, and Pinyon Script; system fonts are fallbacks.
 
