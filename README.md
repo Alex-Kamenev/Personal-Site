@@ -3,6 +3,8 @@
 A personal portfolio spanning data and AI engineering, full-stack development,
 distributed-systems research, creative code, and personal explorations.
 
+**Live portfolio: [alex-kamenev.github.io](https://alex-kamenev.github.io/)**
+
 ## Run locally
 
 Requires Node.js 22+ and Python 3 for the preview server. No npm installation is needed.
@@ -41,3 +43,5 @@ already part of this public website repository.
 `npm run build` produces a minimal `dist/` containing only the assets this version
 uses. It can be deployed on a static host or GitHub Pages. Existing historical
 images remain in source but are omitted from the deployment.
+
+The public production address is `https://alex-kamenev.github.io/`, served from the `main` branch root of [alex-kamenev.github.io](https://github.com/Alex-Kamenev/alex-kamenev.github.io). Publish the six files produced in `dist/` there and retain `.nojekyll`. The prior Sites project is retained as a fallback; it is no longer the primary portfolio link.
