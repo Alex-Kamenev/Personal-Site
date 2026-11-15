@@ -42,8 +42,8 @@ already part of this public website repository.
 
 ## Deployment
 
-`npm run build` produces a minimal `dist/` containing only the assets this version
-uses. It can be deployed on a static host or GitHub Pages. Existing historical
-images remain in source but are omitted from the deployment.
+`npm run build` produces `dist/` with the page, styles, scripts, shared `assets/`
+directory, and selected portrait. It can be deployed on a static host or GitHub
+Pages. Other historical portraits remain in source and are omitted from the build.
 
 The public production address is `https://alex-kamenev.github.io/`, served from the `main` branch root of [alex-kamenev.github.io](https://github.com/Alex-Kamenev/alex-kamenev.github.io). Publish the files produced in `dist/` there and retain `.nojekyll`. The prior Sites project is retained as a fallback; it is no longer the primary portfolio link.
