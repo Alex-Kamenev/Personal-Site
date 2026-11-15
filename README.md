@@ -1,7 +1,8 @@
-# Aleksandar Kamenev — Systems & imagination
+# Aleksandar Kamenev — Data & AI Engineering
 
-A personal portfolio spanning data and AI engineering, full-stack development,
-distributed-systems research, creative code, and personal explorations.
+A personal portfolio focused on professional data and AI engineering at OnTrac,
+previous software leadership at UPS, published distributed-systems research,
+and public open-source contributions.
 
 **Live portfolio: [alex-kamenev.github.io](https://alex-kamenev.github.io/)**
 
@@ -21,7 +22,7 @@ Open http://127.0.0.1:8765. The source HTML can also be served directly by any s
 - Buildless HTML, CSS, and JavaScript with no runtime framework or third-party scripts.
 - Responsive layouts, visible keyboard focus, semantic headings, and project filtering.
 - Generative canvas network with a static SVG fallback.
-- Animation follows the operating system's reduced-motion preference. The footer has a motion control and a “Break the grid” interaction.
+- Animation follows the operating system's reduced-motion preference. The footer has an explicit Pause animations / Resume animations control.
 - Content and links work without JavaScript. Filters and interactive controls appear only when JavaScript initializes.
 - Google Fonts supplies DM Sans, IBM Plex Mono, and Pinyon Script; system fonts are fallbacks.
 
@@ -33,9 +34,10 @@ its [published DOI](https://doi.org/10.1145/3593426). Public project links point
 their original repositories. Project graphics are conceptual artwork, not
 screenshots of employer systems or research results.
 
-Private local projects are described only as high-level work in progress. No
-private source, architecture, customer information, internal metrics, resume
-contact details, or unpublished product names are included. The portrait was
+The featured selection contains OnTrac, UPS, the co-authored ACM paper, and
+SlashDB contributions. Learning exercises and private local projects are not
+featured. No private source, architecture, customer information, internal
+metrics, resume contact details, or unpublished product names are included. The portrait was
 already part of this public website repository.
 
 ## Deployment
@@ -44,4 +46,4 @@ already part of this public website repository.
 uses. It can be deployed on a static host or GitHub Pages. Existing historical
 images remain in source but are omitted from the deployment.
 
-The public production address is `https://alex-kamenev.github.io/`, served from the `main` branch root of [alex-kamenev.github.io](https://github.com/Alex-Kamenev/alex-kamenev.github.io). Publish the six files produced in `dist/` there and retain `.nojekyll`. The prior Sites project is retained as a fallback; it is no longer the primary portfolio link.
+The public production address is `https://alex-kamenev.github.io/`, served from the `main` branch root of [alex-kamenev.github.io](https://github.com/Alex-Kamenev/alex-kamenev.github.io). Publish the files produced in `dist/` there and retain `.nojekyll`. The prior Sites project is retained as a fallback; it is no longer the primary portfolio link.
