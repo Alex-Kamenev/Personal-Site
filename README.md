@@ -37,17 +37,27 @@ their original repositories. Project graphics are conceptual artwork, not
 screenshots of employer systems or research results.
 
 The featured selection contains OnTrac, UPS, the co-authored ACM paper, and
-SlashDB contributions. Learning exercises and private local projects are not
-featured. No private source, architecture, customer information, internal
-metrics, resume contact details, or unpublished product names are included. The portrait was
-already part of this public website repository.
+SlashDB contributions. Learning exercises are not featured. A separate independent-projects section links
+ATLAS, Local developer platform and Frontage case studies, with prototype status
+and validation boundaries stated on each page. Three reviewed MIT releases are linked:
+[ATLAS Research Lab](https://github.com/Alex-Kamenev/atlas-research-lab),
+[SQLite CodeGraph](https://github.com/Alex-Kamenev/sqlite-codegraph), and
+[Frontage Pure Core](https://github.com/Alex-Kamenev/frontage-pure-core).
+The latter two are component extracts; their MIT licenses do not cover the full
+private platform or application. The case studies distinguish fresh standalone
+checks from earlier prototype evidence, without claiming end-to-end validation.
+Original private application source and architecture, real repository indexes,
+operational configuration, account connections, customer information, internal
+metrics, and resume contact details are excluded. The portrait was already part
+of this public website repository.
 
 ## Deployment
 
 `npm run build` produces `dist/` with the page, styles, scripts, shared `assets/`
-directory, and selected portrait. It can be deployed on a static host or GitHub
+directory, the public `work/` case-study pages, and selected portrait. It can be deployed on a static host or GitHub
 Pages. Other historical portraits remain in source and are omitted from the build.
 The build versions stylesheet and script URLs from their content hashes to keep
-new page markup consistent with its assets through browser and CDN caches.
+new page markup consistent with its assets through browser and CDN caches. This
+also applies to styles and scripts referenced from nested case-study pages.
 
 The public production address is `https://alex-kamenev.github.io/`, served from the `main` branch root of [alex-kamenev.github.io](https://github.com/Alex-Kamenev/alex-kamenev.github.io). Publish the files produced in `dist/` there and retain `.nojekyll`. The prior Sites project is retained as a fallback; it is no longer the primary portfolio link.
